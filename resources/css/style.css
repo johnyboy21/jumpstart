@@ -20,3 +20,14 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
+/* Bootstrap Overrides */
+.navbar .navbar-nav .active a {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+nav {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
