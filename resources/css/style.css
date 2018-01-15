@@ -10,10 +10,13 @@ body {
 
 h2 {
   font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
 }
 
 h3 {
   font-size: 1.3rem;
+  font-weight: bold;
 }
 
 
@@ -53,4 +56,26 @@ nav {
 
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
+}
+
+/* Featured project */
+.featured-project .image-container {
+  height: 25rem;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.featured-project img {
+  padding-top: 20px;
+}
+
+.categories h3 {
+  font-size: 1.3rem;
+  color: #399bd1;
+}
+.categories li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
 }
